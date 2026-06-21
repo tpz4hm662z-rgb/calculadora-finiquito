@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Finiquito España Gratis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>Calculadora de Finiquito España</h1>
+
+        <label>Salario bruto mensual (€)</label>
+        <input type="number" id="salario" placeholder="Ejemplo: 2000">
+
+        <label>Días de vacaciones pendientes</label>
+        <input type="number" id="vacaciones" placeholder="Ejemplo: 10">
+        <label>Días trabajados del último mes</label>
+<input type="number" id="diasTrabajados" placeholder="Ejemplo: 15">
+
+<label>Pagas extra pendientes (€)</label>
+<input type="number" id="pagasExtra" placeholder="Ejemplo: 500">
+
+        <button onclick="calcularFiniquito()">
+            Calcular Finiquito
+        </button>
+        <button onclick="reiniciar()">Reiniciar</button>
+
+        <div id="resultado"></div>
+        <p class="aviso">
+    Esta calculadora ofrece una estimación orientativa. El finiquito real puede variar según convenio, contrato, pagas extra, vacaciones y otros conceptos.
+</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
