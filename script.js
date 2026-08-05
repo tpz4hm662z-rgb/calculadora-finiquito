@@ -1,3 +1,9 @@
+const CONFIG = {
+    herramienta: {
+        url: "https://tpz4hm662z-rgb.github.io/calculadora-finiquito/"
+    }
+};
+
 function calcularFiniquito() {
 
     let salario = Number(document.getElementById("salario").value);
